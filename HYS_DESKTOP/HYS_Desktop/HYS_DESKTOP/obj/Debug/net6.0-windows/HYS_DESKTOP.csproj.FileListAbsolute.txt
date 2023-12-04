@@ -16,3 +16,12 @@ C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_Desktop\HYS_DESKTOP\obj\Debug\net
 C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_Desktop\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.girisForm.resources
 C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_Desktop\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.danismanForm.resources
 C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_Desktop\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.doktorForm.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\bin\Debug\net6.0-windows\aa\HYS_DESKTOP.resources.dll
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.danismanHastaIslem.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.danismanKullaniciIslemleri.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.danismanRandevular.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.doktorHastaIslem.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.doktorKullaniciIslemleri.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.doktorRandevular.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\HYS_DESKTOP.doktorKullaniciIslemleri.aa.resources
+C:\Users\ENGBA\Desktop\HYS\HYS\HYS_DESKTOP\HYS_DESKTOP\HYS_DESKTOP\obj\Debug\net6.0-windows\aa\HYS_DESKTOP.resources.dll

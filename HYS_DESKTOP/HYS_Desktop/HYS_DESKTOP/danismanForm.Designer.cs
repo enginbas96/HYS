@@ -31,70 +31,76 @@
             hastaKayitBtn = new Button();
             randevuBtn = new Button();
             kullaniciBtn = new Button();
-            geriBtn = new Button();
-            yardimBtn = new Button();
             cikisBtn = new Button();
+            yardimBtn = new Button();
+            geriBtn = new Button();
             SuspendLayout();
             // 
             // hastaKayitBtn
             // 
-            hastaKayitBtn.Location = new Point(86, 12);
+            hastaKayitBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            hastaKayitBtn.Location = new Point(76, 77);
             hastaKayitBtn.Name = "hastaKayitBtn";
-            hastaKayitBtn.Size = new Size(232, 84);
+            hastaKayitBtn.Size = new Size(163, 67);
             hastaKayitBtn.TabIndex = 1;
             hastaKayitBtn.Text = "Hasta Kayıt İşlemleri";
             hastaKayitBtn.UseVisualStyleBackColor = true;
             // 
             // randevuBtn
             // 
-            randevuBtn.Location = new Point(86, 102);
+            randevuBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            randevuBtn.Location = new Point(76, 167);
             randevuBtn.Name = "randevuBtn";
-            randevuBtn.Size = new Size(232, 84);
+            randevuBtn.Size = new Size(163, 67);
             randevuBtn.TabIndex = 2;
             randevuBtn.Text = "Randevu İşlemleri";
             randevuBtn.UseVisualStyleBackColor = true;
             // 
             // kullaniciBtn
             // 
-            kullaniciBtn.Location = new Point(86, 192);
+            kullaniciBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            kullaniciBtn.Location = new Point(76, 257);
             kullaniciBtn.Name = "kullaniciBtn";
-            kullaniciBtn.Size = new Size(232, 84);
+            kullaniciBtn.Size = new Size(163, 67);
             kullaniciBtn.TabIndex = 3;
             kullaniciBtn.Text = "Kullanıcı İşlemleri";
             kullaniciBtn.UseVisualStyleBackColor = true;
             // 
-            // geriBtn
+            // cikisBtn
             // 
-            geriBtn.Location = new Point(556, 63);
-            geriBtn.Name = "geriBtn";
-            geriBtn.Size = new Size(94, 29);
-            geriBtn.TabIndex = 4;
-            geriBtn.Text = "Geri Buton";
-            geriBtn.UseVisualStyleBackColor = true;
+            cikisBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            cikisBtn.Location = new Point(212, 12);
+            cikisBtn.Name = "cikisBtn";
+            cikisBtn.Size = new Size(94, 40);
+            cikisBtn.TabIndex = 5;
+            cikisBtn.Text = "Çıkış Buton";
+            cikisBtn.UseVisualStyleBackColor = true;
             // 
             // yardimBtn
             // 
-            yardimBtn.Location = new Point(554, 125);
+            yardimBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            yardimBtn.Location = new Point(12, 12);
             yardimBtn.Name = "yardimBtn";
-            yardimBtn.Size = new Size(111, 43);
-            yardimBtn.TabIndex = 5;
-            yardimBtn.Text = "Yardım Buton";
+            yardimBtn.Size = new Size(94, 40);
+            yardimBtn.TabIndex = 6;
+            yardimBtn.Text = "Yardım";
             yardimBtn.UseVisualStyleBackColor = true;
             // 
-            // cikisBtn
+            // geriBtn
             // 
-            cikisBtn.Location = new Point(535, 191);
-            cikisBtn.Name = "cikisBtn";
-            cikisBtn.Size = new Size(113, 40);
-            cikisBtn.TabIndex = 6;
-            cikisBtn.Text = "Çıkış Buton";
-            cikisBtn.UseVisualStyleBackColor = true;
+            geriBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            geriBtn.Location = new Point(112, 12);
+            geriBtn.Name = "geriBtn";
+            geriBtn.Size = new Size(94, 40);
+            geriBtn.TabIndex = 4;
+            geriBtn.Text = "Geri Buton";
+            geriBtn.UseVisualStyleBackColor = true;
             // 
             // danismanForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(321, 341);
             Controls.Add(cikisBtn);
             Controls.Add(yardimBtn);
             Controls.Add(geriBtn);
@@ -115,8 +121,8 @@
         private Button hastaKayitBtn;
         private Button randevuBtn;
         private Button kullaniciBtn;
-        private Button geriBtn;
-        private Button yardimBtn;
         private Button cikisBtn;
+        private Button yardimBtn;
+        private Button geriBtn;
     }
 }

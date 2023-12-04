@@ -9,6 +9,11 @@
       "HYS_DESKTOP/1.0.0": {
         "runtime": {
           "HYS_DESKTOP.dll": {}
+        },
+        "resources": {
+          "aa/HYS_DESKTOP.resources.dll": {
+            "locale": "aa"
+          }
         }
       }
     }

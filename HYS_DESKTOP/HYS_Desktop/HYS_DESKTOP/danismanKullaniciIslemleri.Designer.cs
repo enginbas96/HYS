@@ -28,6 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            mailText = new TextBox();
+            telefonText = new TextBox();
+            birimText = new TextBox();
+            unvanText = new TextBox();
+            soyadText = new TextBox();
+            adText = new TextBox();
+            sifreDegistirBtn = new Button();
+            yeniSifreTekrarText = new TextBox();
+            yeniSifreText = new TextBox();
+            eskiSifreText = new TextBox();
+            label9 = new Label();
+            label8 = new Label();
+            label7 = new Label();
             yardimBtn = new Button();
             geriBtn = new Button();
             label6 = new Label();
@@ -36,161 +49,232 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            sifreDegistirBtn = new Button();
-            yeniSifreTekrarText = new TextBox();
-            yeniSifreText = new TextBox();
-            eskiSifreText = new TextBox();
-            label9 = new Label();
-            label8 = new Label();
-            label7 = new Label();
             SuspendLayout();
             // 
-            // yardimBtn
+            // mailText
             // 
-            yardimBtn.ImeMode = ImeMode.NoControl;
-            yardimBtn.Location = new Point(653, 114);
-            yardimBtn.Name = "yardimBtn";
-            yardimBtn.Size = new Size(94, 29);
-            yardimBtn.TabIndex = 15;
-            yardimBtn.Text = "Yardım";
-            yardimBtn.UseVisualStyleBackColor = true;
+            mailText.Location = new Point(103, 218);
+            mailText.Name = "mailText";
+            mailText.Size = new Size(193, 27);
+            mailText.TabIndex = 1630;
             // 
-            // geriBtn
+            // telefonText
             // 
-            geriBtn.ImeMode = ImeMode.NoControl;
-            geriBtn.Location = new Point(653, 52);
-            geriBtn.Name = "geriBtn";
-            geriBtn.Size = new Size(108, 38);
-            geriBtn.TabIndex = 14;
-            geriBtn.Text = "Geri Buton";
-            geriBtn.UseVisualStyleBackColor = true;
+            telefonText.Location = new Point(103, 175);
+            telefonText.Name = "telefonText";
+            telefonText.Size = new Size(193, 27);
+            telefonText.TabIndex = 1629;
             // 
-            // label6
+            // birimText
             // 
-            label6.AutoSize = true;
-            label6.ImeMode = ImeMode.NoControl;
-            label6.Location = new Point(443, 93);
-            label6.Name = "label6";
-            label6.Size = new Size(69, 20);
-            label6.TabIndex = 13;
-            label6.Text = "Telefon : ";
+            birimText.Location = new Point(103, 135);
+            birimText.Name = "birimText";
+            birimText.Size = new Size(193, 27);
+            birimText.TabIndex = 1628;
             // 
-            // label5
+            // unvanText
             // 
-            label5.AutoSize = true;
-            label5.ImeMode = ImeMode.NoControl;
-            label5.Location = new Point(454, 52);
-            label5.Name = "label5";
-            label5.Size = new Size(58, 20);
-            label5.TabIndex = 12;
-            label5.Text = "Adres : ";
+            unvanText.Location = new Point(103, 95);
+            unvanText.Name = "unvanText";
+            unvanText.Size = new Size(193, 27);
+            unvanText.TabIndex = 1627;
             // 
-            // label4
+            // soyadText
             // 
-            label4.AutoSize = true;
-            label4.ImeMode = ImeMode.NoControl;
-            label4.Location = new Point(220, 93);
-            label4.Name = "label4";
-            label4.Size = new Size(55, 20);
-            label4.TabIndex = 11;
-            label4.Text = "Birim : ";
+            soyadText.Location = new Point(103, 55);
+            soyadText.Name = "soyadText";
+            soyadText.Size = new Size(193, 27);
+            soyadText.TabIndex = 1632;
             // 
-            // label3
+            // adText
             // 
-            label3.AutoSize = true;
-            label3.ImeMode = ImeMode.NoControl;
-            label3.Location = new Point(214, 52);
-            label3.Name = "label3";
-            label3.Size = new Size(61, 20);
-            label3.TabIndex = 10;
-            label3.Text = "Ünvan : ";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.ImeMode = ImeMode.NoControl;
-            label2.Location = new Point(27, 93);
-            label2.Name = "label2";
-            label2.Size = new Size(61, 20);
-            label2.TabIndex = 9;
-            label2.Text = "Soyad : ";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.ImeMode = ImeMode.NoControl;
-            label1.Location = new Point(49, 52);
-            label1.Name = "label1";
-            label1.Size = new Size(39, 20);
-            label1.TabIndex = 8;
-            label1.Text = "Ad : ";
+            adText.Location = new Point(103, 12);
+            adText.Name = "adText";
+            adText.Size = new Size(193, 27);
+            adText.TabIndex = 1631;
             // 
             // sifreDegistirBtn
             // 
+            sifreDegistirBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             sifreDegistirBtn.ImeMode = ImeMode.NoControl;
-            sifreDegistirBtn.Location = new Point(443, 345);
+            sifreDegistirBtn.Location = new Point(498, 148);
+            sifreDegistirBtn.Margin = new Padding(4);
             sifreDegistirBtn.Name = "sifreDegistirBtn";
-            sifreDegistirBtn.Size = new Size(107, 33);
-            sifreDegistirBtn.TabIndex = 22;
-            sifreDegistirBtn.Text = "Sifre Değiştir";
+            sifreDegistirBtn.Size = new Size(193, 46);
+            sifreDegistirBtn.TabIndex = 1620;
+            sifreDegistirBtn.Text = "Şifre Değiştir";
             sifreDegistirBtn.UseVisualStyleBackColor = true;
             // 
             // yeniSifreTekrarText
             // 
-            yeniSifreTekrarText.Location = new Point(290, 286);
+            yeniSifreTekrarText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            yeniSifreTekrarText.Location = new Point(498, 96);
+            yeniSifreTekrarText.Margin = new Padding(4);
             yeniSifreTekrarText.Name = "yeniSifreTekrarText";
-            yeniSifreTekrarText.Size = new Size(253, 27);
-            yeniSifreTekrarText.TabIndex = 21;
+            yeniSifreTekrarText.Size = new Size(193, 34);
+            yeniSifreTekrarText.TabIndex = 1618;
             // 
             // yeniSifreText
             // 
-            yeniSifreText.Location = new Point(290, 234);
+            yeniSifreText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            yeniSifreText.Location = new Point(498, 54);
+            yeniSifreText.Margin = new Padding(4);
             yeniSifreText.Name = "yeniSifreText";
-            yeniSifreText.Size = new Size(253, 27);
-            yeniSifreText.TabIndex = 20;
+            yeniSifreText.Size = new Size(193, 34);
+            yeniSifreText.TabIndex = 1616;
             // 
             // eskiSifreText
             // 
-            eskiSifreText.Location = new Point(290, 178);
+            eskiSifreText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            eskiSifreText.Location = new Point(498, 12);
+            eskiSifreText.Margin = new Padding(4);
             eskiSifreText.Name = "eskiSifreText";
-            eskiSifreText.Size = new Size(253, 27);
-            eskiSifreText.TabIndex = 19;
+            eskiSifreText.Size = new Size(193, 34);
+            eskiSifreText.TabIndex = 1613;
             // 
             // label9
             // 
             label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label9.ImeMode = ImeMode.NoControl;
-            label9.Location = new Point(153, 289);
+            label9.Location = new Point(321, 99);
+            label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
-            label9.Size = new Size(131, 20);
-            label9.TabIndex = 18;
+            label9.Size = new Size(169, 28);
+            label9.TabIndex = 1626;
             label9.Text = "Yeni Şifre (Tekrar) :";
             // 
             // label8
             // 
             label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ImeMode = ImeMode.NoControl;
-            label8.Location = new Point(203, 237);
+            label8.Location = new Point(385, 57);
+            label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
-            label8.Size = new Size(81, 20);
-            label8.TabIndex = 17;
+            label8.Size = new Size(105, 28);
+            label8.TabIndex = 1625;
             label8.Text = "Yeni Şifre : ";
             // 
             // label7
             // 
             label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ImeMode = ImeMode.NoControl;
-            label7.Location = new Point(205, 181);
+            label7.Location = new Point(387, 15);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(79, 20);
-            label7.TabIndex = 16;
+            label7.Size = new Size(103, 28);
+            label7.TabIndex = 1624;
             label7.Text = "Eski Şifre : ";
+            // 
+            // yardimBtn
+            // 
+            yardimBtn.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            yardimBtn.ImeMode = ImeMode.NoControl;
+            yardimBtn.Location = new Point(498, 223);
+            yardimBtn.Margin = new Padding(4);
+            yardimBtn.Name = "yardimBtn";
+            yardimBtn.Size = new Size(90, 29);
+            yardimBtn.TabIndex = 1623;
+            yardimBtn.Text = "Yardım";
+            yardimBtn.UseVisualStyleBackColor = true;
+            // 
+            // geriBtn
+            // 
+            geriBtn.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            geriBtn.ImeMode = ImeMode.NoControl;
+            geriBtn.Location = new Point(601, 224);
+            geriBtn.Margin = new Padding(4);
+            geriBtn.Name = "geriBtn";
+            geriBtn.Size = new Size(90, 29);
+            geriBtn.TabIndex = 1622;
+            geriBtn.Text = "Geri";
+            geriBtn.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ImeMode = ImeMode.NoControl;
+            label6.Location = new Point(8, 178);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(88, 28);
+            label6.TabIndex = 1621;
+            label6.Text = "Telefon : ";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ImeMode = ImeMode.NoControl;
+            label5.Location = new Point(32, 220);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(64, 28);
+            label5.TabIndex = 1619;
+            label5.Text = "Mail : ";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ImeMode = ImeMode.NoControl;
+            label4.Location = new Point(25, 138);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(71, 28);
+            label4.TabIndex = 1617;
+            label4.Text = "Birim : ";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ImeMode = ImeMode.NoControl;
+            label3.Location = new Point(14, 98);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(82, 28);
+            label3.TabIndex = 1615;
+            label3.Text = "Ünvan : ";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ImeMode = ImeMode.NoControl;
+            label2.Location = new Point(15, 58);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(81, 28);
+            label2.TabIndex = 1614;
+            label2.Text = "Soyad : ";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ImeMode = ImeMode.NoControl;
+            label1.Location = new Point(45, 15);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(51, 28);
+            label1.TabIndex = 1612;
+            label1.Text = "Ad : ";
             // 
             // danismanKullaniciIslemleri
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(706, 268);
+            Controls.Add(mailText);
+            Controls.Add(telefonText);
+            Controls.Add(birimText);
+            Controls.Add(unvanText);
+            Controls.Add(soyadText);
+            Controls.Add(adText);
             Controls.Add(sifreDegistirBtn);
             Controls.Add(yeniSifreTekrarText);
             Controls.Add(yeniSifreText);
@@ -207,13 +291,26 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "danismanKullaniciIslemleri";
-            Text = "danismanKullaniciIslemleri";
+            Text = "Kullanıcı İşlemleri";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private TextBox mailText;
+        private TextBox telefonText;
+        private TextBox birimText;
+        private TextBox unvanText;
+        private TextBox soyadText;
+        private TextBox adText;
+        private Button sifreDegistirBtn;
+        private TextBox yeniSifreTekrarText;
+        private TextBox yeniSifreText;
+        private TextBox eskiSifreText;
+        private Label label9;
+        private Label label8;
+        private Label label7;
         private Button yardimBtn;
         private Button geriBtn;
         private Label label6;
@@ -222,12 +319,5 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private Button sifreDegistirBtn;
-        private TextBox yeniSifreTekrarText;
-        private TextBox yeniSifreText;
-        private TextBox eskiSifreText;
-        private Label label9;
-        private Label label8;
-        private Label label7;
     }
 }

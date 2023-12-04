@@ -28,75 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-            randevularData = new DataGridView();
+            randevularimData = new DataGridView();
             label1 = new Label();
             geriBtn = new Button();
             yardimBtn = new Button();
             tcLbl = new Label();
             tcText = new TextBox();
             sorgulaBtn = new Button();
-            ((System.ComponentModel.ISupportInitialize)randevularData).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)randevularimData).BeginInit();
             SuspendLayout();
             // 
-            // randevularData
+            // randevularimData
             // 
-            randevularData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            randevularData.Location = new Point(12, 264);
-            randevularData.Name = "randevularData";
-            randevularData.RowHeadersWidth = 51;
-            randevularData.RowTemplate.Height = 29;
-            randevularData.Size = new Size(490, 174);
-            randevularData.TabIndex = 0;
+            randevularimData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            randevularimData.Location = new Point(12, 116);
+            randevularimData.Name = "randevularimData";
+            randevularimData.RowHeadersWidth = 51;
+            randevularimData.RowTemplate.Height = 29;
+            randevularimData.Size = new Size(387, 174);
+            randevularimData.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 241);
+            label1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(12, 90);
             label1.Name = "label1";
-            label1.Size = new Size(100, 20);
+            label1.Size = new Size(114, 23);
             label1.TabIndex = 1;
             label1.Text = "Randevularım";
             // 
             // geriBtn
             // 
-            geriBtn.Location = new Point(694, 336);
+            geriBtn.Location = new Point(305, 312);
             geriBtn.Name = "geriBtn";
             geriBtn.Size = new Size(94, 29);
-            geriBtn.TabIndex = 2;
+            geriBtn.TabIndex = 3;
             geriBtn.Text = "Geri";
             geriBtn.UseVisualStyleBackColor = true;
             // 
             // yardimBtn
             // 
-            yardimBtn.Location = new Point(695, 388);
+            yardimBtn.Location = new Point(205, 312);
             yardimBtn.Name = "yardimBtn";
             yardimBtn.Size = new Size(94, 29);
-            yardimBtn.TabIndex = 3;
+            yardimBtn.TabIndex = 4;
             yardimBtn.Text = "Yardım";
             yardimBtn.UseVisualStyleBackColor = true;
             // 
             // tcLbl
             // 
             tcLbl.AutoSize = true;
-            tcLbl.Location = new Point(31, 29);
+            tcLbl.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tcLbl.Location = new Point(12, 18);
             tcLbl.Name = "tcLbl";
-            tcLbl.Size = new Size(36, 20);
+            tcLbl.Size = new Size(47, 28);
             tcLbl.TabIndex = 4;
             tcLbl.Text = "TC : ";
             // 
             // tcText
             // 
-            tcText.Location = new Point(73, 26);
+            tcText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tcText.Location = new Point(65, 15);
             tcText.Name = "tcText";
-            tcText.Size = new Size(229, 27);
-            tcText.TabIndex = 5;
+            tcText.Size = new Size(229, 34);
+            tcText.TabIndex = 1;
             // 
             // sorgulaBtn
             // 
-            sorgulaBtn.Location = new Point(308, 25);
+            sorgulaBtn.Location = new Point(305, 17);
             sorgulaBtn.Name = "sorgulaBtn";
             sorgulaBtn.Size = new Size(94, 29);
-            sorgulaBtn.TabIndex = 6;
+            sorgulaBtn.TabIndex = 2;
             sorgulaBtn.Text = "Sorgula";
             sorgulaBtn.UseVisualStyleBackColor = true;
             // 
@@ -104,28 +107,28 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(418, 359);
             Controls.Add(sorgulaBtn);
             Controls.Add(tcText);
             Controls.Add(tcLbl);
             Controls.Add(yardimBtn);
             Controls.Add(geriBtn);
             Controls.Add(label1);
-            Controls.Add(randevularData);
+            Controls.Add(randevularimData);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "doktorRandevular";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Randevularım";
-            ((System.ComponentModel.ISupportInitialize)randevularData).EndInit();
+            ((System.ComponentModel.ISupportInitialize)randevularimData).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView randevularData;
+        private DataGridView randevularimData;
         private Label label1;
         private Button geriBtn;
         private Button yardimBtn;

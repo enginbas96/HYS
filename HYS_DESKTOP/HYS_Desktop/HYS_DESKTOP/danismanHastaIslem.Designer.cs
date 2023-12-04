@@ -49,127 +49,157 @@
             // 
             // tcText
             // 
-            tcText.Location = new Point(78, 35);
+            tcText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tcText.Location = new Point(155, 24);
+            tcText.Margin = new Padding(4, 4, 4, 4);
             tcText.Name = "tcText";
-            tcText.Size = new Size(125, 27);
-            tcText.TabIndex = 0;
+            tcText.Size = new Size(314, 34);
+            tcText.TabIndex = 1;
             // 
             // tcLbl
             // 
             tcLbl.AutoSize = true;
-            tcLbl.Location = new Point(36, 38);
+            tcLbl.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tcLbl.Location = new Point(100, 27);
+            tcLbl.Margin = new Padding(4, 0, 4, 0);
             tcLbl.Name = "tcLbl";
-            tcLbl.Size = new Size(36, 20);
-            tcLbl.TabIndex = 1;
+            tcLbl.Size = new Size(47, 28);
+            tcLbl.TabIndex = 111;
             tcLbl.Text = "TC : ";
             // 
             // sorgulaBtn
             // 
-            sorgulaBtn.Location = new Point(209, 34);
+            sorgulaBtn.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            sorgulaBtn.Location = new Point(361, 66);
+            sorgulaBtn.Margin = new Padding(4, 4, 4, 4);
             sorgulaBtn.Name = "sorgulaBtn";
-            sorgulaBtn.Size = new Size(94, 29);
+            sorgulaBtn.Size = new Size(108, 37);
             sorgulaBtn.TabIndex = 2;
             sorgulaBtn.Text = "Sorgula";
             sorgulaBtn.UseVisualStyleBackColor = true;
             // 
             // silBtn
             // 
-            silBtn.Location = new Point(320, 34);
+            silBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            silBtn.Location = new Point(41, 352);
+            silBtn.Margin = new Padding(4, 4, 4, 4);
             silBtn.Name = "silBtn";
-            silBtn.Size = new Size(133, 34);
-            silBtn.TabIndex = 3;
-            silBtn.Text = "Sil Button";
+            silBtn.Size = new Size(139, 50);
+            silBtn.TabIndex = 11;
+            silBtn.Text = "Sil";
             silBtn.UseVisualStyleBackColor = true;
             // 
             // guncelleBtn
             // 
-            guncelleBtn.Location = new Point(82, 385);
+            guncelleBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            guncelleBtn.Location = new Point(188, 352);
+            guncelleBtn.Margin = new Padding(4, 4, 4, 4);
             guncelleBtn.Name = "guncelleBtn";
-            guncelleBtn.Size = new Size(121, 36);
-            guncelleBtn.TabIndex = 4;
+            guncelleBtn.Size = new Size(139, 50);
+            guncelleBtn.TabIndex = 10;
             guncelleBtn.Text = "Güncelle";
             guncelleBtn.UseVisualStyleBackColor = true;
             // 
             // adLbl
             // 
             adLbl.AutoSize = true;
-            adLbl.Location = new Point(94, 121);
+            adLbl.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            adLbl.Location = new Point(96, 121);
+            adLbl.Margin = new Padding(4, 0, 4, 0);
             adLbl.Name = "adLbl";
-            adLbl.Size = new Size(39, 20);
-            adLbl.TabIndex = 6;
+            adLbl.Size = new Size(51, 28);
+            adLbl.TabIndex = 611;
             adLbl.Text = "Ad : ";
             // 
             // adText
             // 
-            adText.Location = new Point(139, 118);
+            adText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            adText.Location = new Point(155, 118);
+            adText.Margin = new Padding(4, 4, 4, 4);
             adText.Name = "adText";
-            adText.Size = new Size(125, 27);
-            adText.TabIndex = 5;
+            adText.Size = new Size(314, 34);
+            adText.TabIndex = 3;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(72, 167);
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(66, 163);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(61, 20);
-            label1.TabIndex = 8;
+            label1.Size = new Size(81, 28);
+            label1.TabIndex = 811;
             label1.Text = "Soyad : ";
             // 
             // soyadText
             // 
-            soyadText.Location = new Point(139, 164);
+            soyadText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            soyadText.Location = new Point(155, 160);
+            soyadText.Margin = new Padding(4, 4, 4, 4);
             soyadText.Name = "soyadText";
-            soyadText.Size = new Size(125, 27);
-            soyadText.TabIndex = 7;
+            soyadText.Size = new Size(314, 34);
+            soyadText.TabIndex = 4;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(64, 212);
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(59, 205);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(69, 20);
-            label2.TabIndex = 10;
+            label2.Size = new Size(88, 28);
+            label2.TabIndex = 1011;
             label2.Text = "Telefon : ";
             // 
             // telefonText
             // 
-            telefonText.Location = new Point(139, 209);
+            telefonText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            telefonText.Location = new Point(155, 202);
+            telefonText.Margin = new Padding(4, 4, 4, 4);
             telefonText.Name = "telefonText";
-            telefonText.Size = new Size(125, 27);
-            telefonText.TabIndex = 9;
+            telefonText.Size = new Size(314, 34);
+            telefonText.TabIndex = 5;
             // 
             // dogumTarihi
             // 
-            dogumTarihi.Location = new Point(139, 254);
+            dogumTarihi.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dogumTarihi.Location = new Point(155, 244);
+            dogumTarihi.Margin = new Padding(4, 4, 4, 4);
             dogumTarihi.Name = "dogumTarihi";
-            dogumTarihi.Size = new Size(220, 27);
-            dogumTarihi.TabIndex = 11;
+            dogumTarihi.Size = new Size(314, 34);
+            dogumTarihi.TabIndex = 6;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(39, 259);
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(24, 249);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(94, 20);
-            label3.TabIndex = 12;
+            label3.Size = new Size(123, 28);
+            label3.TabIndex = 1211;
             label3.Text = "Doğum Yılı : ";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(62, 307);
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(53, 304);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(71, 20);
-            label4.TabIndex = 13;
+            label4.Size = new Size(94, 28);
+            label4.TabIndex = 1311;
             label4.Text = "Cinsiyet : ";
             // 
             // erkekRB
             // 
             erkekRB.AutoSize = true;
-            erkekRB.Location = new Point(158, 305);
+            erkekRB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            erkekRB.Location = new Point(163, 302);
+            erkekRB.Margin = new Padding(4, 4, 4, 4);
             erkekRB.Name = "erkekRB";
-            erkekRB.Size = new Size(65, 24);
-            erkekRB.TabIndex = 14;
+            erkekRB.Size = new Size(80, 32);
+            erkekRB.TabIndex = 7;
             erkekRB.TabStop = true;
             erkekRB.Text = "Erkek";
             erkekRB.UseVisualStyleBackColor = true;
@@ -177,28 +207,32 @@
             // kadinRB
             // 
             kadinRB.AutoSize = true;
-            kadinRB.Location = new Point(242, 305);
+            kadinRB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            kadinRB.Location = new Point(276, 302);
+            kadinRB.Margin = new Padding(4, 4, 4, 4);
             kadinRB.Name = "kadinRB";
-            kadinRB.Size = new Size(68, 24);
-            kadinRB.TabIndex = 15;
+            kadinRB.Size = new Size(83, 32);
+            kadinRB.TabIndex = 8;
             kadinRB.TabStop = true;
             kadinRB.Text = "Kadın";
             kadinRB.UseVisualStyleBackColor = true;
             // 
             // kaydetBtn
             // 
-            kaydetBtn.Location = new Point(227, 378);
+            kaydetBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            kaydetBtn.Location = new Point(335, 352);
+            kaydetBtn.Margin = new Padding(4, 4, 4, 4);
             kaydetBtn.Name = "kaydetBtn";
-            kaydetBtn.Size = new Size(132, 43);
-            kaydetBtn.TabIndex = 16;
+            kaydetBtn.Size = new Size(139, 50);
+            kaydetBtn.TabIndex = 9;
             kaydetBtn.Text = "Kaydet";
             kaydetBtn.UseVisualStyleBackColor = true;
             // 
             // danismanHastaIslem
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(493, 424);
             Controls.Add(kaydetBtn);
             Controls.Add(kadinRB);
             Controls.Add(erkekRB);
@@ -216,6 +250,8 @@
             Controls.Add(sorgulaBtn);
             Controls.Add(tcLbl);
             Controls.Add(tcText);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "danismanHastaIslem";
             Text = "Hasta İşlem Formu";
             ResumeLayout(false);

@@ -122,11 +122,18 @@
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 37</value>
+    <value>63, 29</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>51, 28</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -144,16 +151,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>20</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 78</value>
+    <value>33, 72</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>81, 28</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -171,16 +184,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>19</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 37</value>
+    <value>32, 112</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>82, 28</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -198,16 +217,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>18</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 78</value>
+    <value>43, 152</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
+    <value>71, 28</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -225,22 +250,28 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>17</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>464, 37</value>
+    <value>50, 234</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
+    <value>64, 28</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Adres : </value>
+    <value>Mail : </value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -252,16 +283,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>16</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>453, 78</value>
+    <value>26, 192</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
+    <value>88, 28</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -279,19 +316,25 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>15</value>
+  </data>
+  <data name="geriBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="geriBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, 37</value>
+    <value>619, 238</value>
+  </data>
+  <data name="geriBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="geriBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 38</value>
+    <value>90, 29</value>
   </data>
   <data name="geriBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="geriBtn.Text" xml:space="preserve">
-    <value>Geri Buton</value>
+    <value>Geri</value>
   </data>
   <data name="&gt;&gt;geriBtn.Name" xml:space="preserve">
     <value>geriBtn</value>
@@ -303,16 +346,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;geriBtn.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>14</value>
+  </data>
+  <data name="yardimBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="yardimBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, 99</value>
+    <value>516, 237</value>
+  </data>
+  <data name="yardimBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="yardimBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 29</value>
+    <value>90, 29</value>
   </data>
   <data name="yardimBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="yardimBtn.Text" xml:space="preserve">
     <value>Yardım</value>
@@ -327,16 +376,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yardimBtn.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>13</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 199</value>
+    <value>405, 29</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 20</value>
+    <value>103, 28</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -354,16 +409,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>12</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 255</value>
+    <value>403, 71</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 20</value>
+    <value>105, 28</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -381,16 +442,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>11</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 307</value>
+    <value>339, 113</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 20</value>
+    <value>169, 28</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -408,16 +475,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>10</value>
+  </data>
+  <data name="eskiSifreText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
   </data>
   <data name="eskiSifreText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 196</value>
+    <value>516, 26</value>
+  </data>
+  <data name="eskiSifreText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="eskiSifreText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 27</value>
+    <value>193, 34</value>
   </data>
   <data name="eskiSifreText.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;eskiSifreText.Name" xml:space="preserve">
     <value>eskiSifreText</value>
@@ -429,16 +502,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;eskiSifreText.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>9</value>
+  </data>
+  <data name="yeniSifreText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
   </data>
   <data name="yeniSifreText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 252</value>
+    <value>516, 68</value>
+  </data>
+  <data name="yeniSifreText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="yeniSifreText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 27</value>
+    <value>193, 34</value>
   </data>
   <data name="yeniSifreText.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;yeniSifreText.Name" xml:space="preserve">
     <value>yeniSifreText</value>
@@ -450,16 +529,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yeniSifreText.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>8</value>
+  </data>
+  <data name="yeniSifreTekrarText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
   </data>
   <data name="yeniSifreTekrarText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 304</value>
+    <value>516, 110</value>
+  </data>
+  <data name="yeniSifreTekrarText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="yeniSifreTekrarText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 27</value>
+    <value>193, 34</value>
   </data>
   <data name="yeniSifreTekrarText.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;yeniSifreTekrarText.Name" xml:space="preserve">
     <value>yeniSifreTekrarText</value>
@@ -471,19 +556,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yeniSifreTekrarText.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>7</value>
   </data>
   <data name="sifreDegistirBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>377, 363</value>
+    <value>516, 162</value>
+  </data>
+  <data name="sifreDegistirBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="sifreDegistirBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 33</value>
+    <value>193, 46</value>
   </data>
   <data name="sifreDegistirBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>4</value>
   </data>
   <data name="sifreDegistirBtn.Text" xml:space="preserve">
-    <value>Sifre Değiştir</value>
+    <value>Şifre Değiştir</value>
   </data>
   <data name="&gt;&gt;sifreDegistirBtn.Name" xml:space="preserve">
     <value>sifreDegistirBtn</value>
@@ -495,16 +583,148 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sifreDegistirBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="adText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 26</value>
+  </data>
+  <data name="adText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 34</value>
+  </data>
+  <data name="adText.TabIndex" type="System.Int32, mscorlib">
+    <value>1511</value>
+  </data>
+  <data name="&gt;&gt;adText.Name" xml:space="preserve">
+    <value>adText</value>
+  </data>
+  <data name="&gt;&gt;adText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;adText.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="soyadText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 69</value>
+  </data>
+  <data name="soyadText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 34</value>
+  </data>
+  <data name="soyadText.TabIndex" type="System.Int32, mscorlib">
+    <value>1611</value>
+  </data>
+  <data name="&gt;&gt;soyadText.Name" xml:space="preserve">
+    <value>soyadText</value>
+  </data>
+  <data name="&gt;&gt;soyadText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;soyadText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;soyadText.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="birimText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 149</value>
+  </data>
+  <data name="birimText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 34</value>
+  </data>
+  <data name="birimText.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;birimText.Name" xml:space="preserve">
+    <value>birimText</value>
+  </data>
+  <data name="&gt;&gt;birimText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;birimText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;birimText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="unvanText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 109</value>
+  </data>
+  <data name="unvanText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 34</value>
+  </data>
+  <data name="unvanText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;unvanText.Name" xml:space="preserve">
+    <value>unvanText</value>
+  </data>
+  <data name="&gt;&gt;unvanText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;unvanText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;unvanText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mailText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 232</value>
+  </data>
+  <data name="mailText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 34</value>
+  </data>
+  <data name="mailText.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;mailText.Name" xml:space="preserve">
+    <value>mailText</value>
+  </data>
+  <data name="&gt;&gt;mailText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mailText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mailText.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="telefonText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 189</value>
+  </data>
+  <data name="telefonText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 34</value>
+  </data>
+  <data name="telefonText.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;telefonText.Name" xml:space="preserve">
+    <value>telefonText</value>
+  </data>
+  <data name="&gt;&gt;telefonText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telefonText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;telefonText.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>11, 28</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>735, 285</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">

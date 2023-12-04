@@ -29,62 +29,67 @@
         private void InitializeComponent()
         {
             girisBtn = new Button();
-            tclbl = new Label();
-            sifrelbl = new Label();
+            tcLbl = new Label();
+            sifreLbl = new Label();
             tcText = new TextBox();
             sifreText = new TextBox();
             SuspendLayout();
             // 
             // girisBtn
             // 
-            girisBtn.Location = new Point(255, 271);
+            girisBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            girisBtn.Location = new Point(211, 212);
             girisBtn.Name = "girisBtn";
-            girisBtn.Size = new Size(259, 79);
+            girisBtn.Size = new Size(161, 60);
             girisBtn.TabIndex = 3;
             girisBtn.Text = "Giriş Yap";
             girisBtn.UseVisualStyleBackColor = true;
             // 
-            // tclbl
+            // tcLbl
             // 
-            tclbl.AutoSize = true;
-            tclbl.Location = new Point(255, 126);
-            tclbl.Name = "tclbl";
-            tclbl.Size = new Size(36, 20);
-            tclbl.TabIndex = 111;
-            tclbl.Text = "TC : ";
+            tcLbl.AutoSize = true;
+            tcLbl.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tcLbl.Location = new Point(142, 102);
+            tcLbl.Name = "tcLbl";
+            tcLbl.Size = new Size(47, 28);
+            tcLbl.TabIndex = 111;
+            tcLbl.Text = "TC : ";
             // 
-            // sifrelbl
+            // sifreLbl
             // 
-            sifrelbl.AutoSize = true;
-            sifrelbl.Location = new Point(241, 176);
-            sifrelbl.Name = "sifrelbl";
-            sifrelbl.Size = new Size(50, 20);
-            sifrelbl.TabIndex = 211;
-            sifrelbl.Text = "Şifre : ";
+            sifreLbl.AutoSize = true;
+            sifreLbl.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            sifreLbl.Location = new Point(124, 149);
+            sifreLbl.Name = "sifreLbl";
+            sifreLbl.Size = new Size(65, 28);
+            sifreLbl.TabIndex = 211;
+            sifreLbl.Text = "Şifre : ";
             // 
             // tcText
             // 
-            tcText.Location = new Point(297, 123);
+            tcText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tcText.Location = new Point(195, 99);
             tcText.Name = "tcText";
-            tcText.Size = new Size(217, 27);
+            tcText.Size = new Size(189, 34);
             tcText.TabIndex = 1;
             // 
             // sifreText
             // 
-            sifreText.Location = new Point(297, 173);
+            sifreText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            sifreText.Location = new Point(195, 146);
             sifreText.Name = "sifreText";
-            sifreText.Size = new Size(217, 27);
+            sifreText.Size = new Size(189, 34);
             sifreText.TabIndex = 2;
             // 
             // girisForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(542, 353);
             Controls.Add(sifreText);
             Controls.Add(tcText);
-            Controls.Add(sifrelbl);
-            Controls.Add(tclbl);
+            Controls.Add(sifreLbl);
+            Controls.Add(tcLbl);
             Controls.Add(girisBtn);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
@@ -99,8 +104,8 @@
         #endregion
 
         private Button girisBtn;
-        private Label tclbl;
-        private Label sifrelbl;
+        private Label tcLbl;
+        private Label sifreLbl;
         private TextBox tcText;
         private TextBox sifreText;
     }

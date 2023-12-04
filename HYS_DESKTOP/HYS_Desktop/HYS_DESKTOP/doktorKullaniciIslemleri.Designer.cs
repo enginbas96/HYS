@@ -44,6 +44,12 @@
             yeniSifreText = new TextBox();
             yeniSifreTekrarText = new TextBox();
             sifreDegistirBtn = new Button();
+            adText = new TextBox();
+            soyadText = new TextBox();
+            birimText = new TextBox();
+            unvanText = new TextBox();
+            mailText = new TextBox();
+            telefonText = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -124,10 +130,46 @@
             sifreDegistirBtn.Name = "sifreDegistirBtn";
             sifreDegistirBtn.UseVisualStyleBackColor = true;
             // 
+            // adText
+            // 
+            resources.ApplyResources(adText, "adText");
+            adText.Name = "adText";
+            // 
+            // soyadText
+            // 
+            resources.ApplyResources(soyadText, "soyadText");
+            soyadText.Name = "soyadText";
+            // 
+            // birimText
+            // 
+            resources.ApplyResources(birimText, "birimText");
+            birimText.Name = "birimText";
+            // 
+            // unvanText
+            // 
+            resources.ApplyResources(unvanText, "unvanText");
+            unvanText.Name = "unvanText";
+            // 
+            // mailText
+            // 
+            resources.ApplyResources(mailText, "mailText");
+            mailText.Name = "mailText";
+            // 
+            // telefonText
+            // 
+            resources.ApplyResources(telefonText, "telefonText");
+            telefonText.Name = "telefonText";
+            // 
             // doktorKullaniciIslemleri
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(mailText);
+            Controls.Add(telefonText);
+            Controls.Add(birimText);
+            Controls.Add(unvanText);
+            Controls.Add(soyadText);
+            Controls.Add(adText);
             Controls.Add(sifreDegistirBtn);
             Controls.Add(yeniSifreTekrarText);
             Controls.Add(yeniSifreText);
@@ -169,5 +211,11 @@
         private TextBox yeniSifreText;
         private TextBox yeniSifreTekrarText;
         private Button sifreDegistirBtn;
+        private TextBox adText;
+        private TextBox soyadText;
+        private TextBox birimText;
+        private TextBox unvanText;
+        private TextBox mailText;
+        private TextBox telefonText;
     }
 }
